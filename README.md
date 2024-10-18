@@ -1,7 +1,7 @@
 <h1 align="center"> Sorteador </h1>
 
 <h2>�� Sobre</h2>
-<p>É um sorteador de números, voce define o range e quantos números quer.</p>
+<p>É feito para sortear amigos para um amigo secreto.</p>
 
 ## �� Tecnologias
 <div>
