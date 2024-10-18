@@ -153,19 +153,19 @@ function reiniciar() {
     document.getElementById('lista-sorteio').innerHTML = '';
 }
 
-let teste = prompt('Digite a palavra para ver se a mesma é palindroma')
-TestarPalindromo(teste)
+// let teste = prompt('Digite a palavra para ver se a mesma é palindroma')
+// TestarPalindromo(teste)
 
-function TestarPalindromo(palavra) {
-    let palavraLista = palavra.split('') //separa uma variavel, ela sendo sem parametro ela vira um list
-    let listaInvertida = palavraLista.reverse() //inverte a lista
-    palavraInvertida = listaInvertida.join('') //transforma a lista em palavra
-    if(palavra == palavraInvertida) {
-        alert('Está palavra é Palindroma')
-    } else {
-        alert('Essa palavra não é Palindroma')
-    }
-}
+// function TestarPalindromo(palavra) {
+//     let palavraLista = palavra.split('') //separa uma variavel, ela sendo sem parametro ela vira um list
+//     let listaInvertida = palavraLista.reverse() //inverte a lista
+//     palavraInvertida = listaInvertida.join('') //transforma a lista em palavra
+//     if(palavra == palavraInvertida) {
+//         alert('Está palavra é Palindroma')
+//     } else {
+//         alert('Essa palavra não é Palindroma')
+//     }
+// }
 // Função constante le a primeira linha da função (function exprection)
 // const NomeFunction = function() {
 
